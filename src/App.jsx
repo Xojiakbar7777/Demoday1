@@ -11,7 +11,7 @@ import ReviewsPage from './Pages/Otziv'
 import TestimonialsPage from './Pages/Otziv'
 import FAQ from './Pages/Vopros'
 import LogisticsCalculator from './Pages/Kalkulyator'
-
+import ContactsPage from './Pages/Kontakti'
 const App = () => {
   return (
     <div>
@@ -24,6 +24,7 @@ const App = () => {
       <Route path='/Deliver' element={<DeliveryPage />} />
       <Route path='/Otziv' element={<TestimonialsPage />} />
         <Route path='/Vopros'  element={<FAQ />} />
+        <Route path='/Contakti'  element={<ContactsPage />}/>
       <Route path='/Calculyator' element={<LogisticsCalculator />}/>
      </Routes>
     </div>

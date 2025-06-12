@@ -84,7 +84,7 @@ const Navbar = () => {
             </Link>
           </li>
           <li>
-            <Link to="/Contacts" className="font-bold hover:text-red-600 transition">
+            <Link to="/Contakti" className="font-bold hover:text-red-600 transition">
               Контакты
             </Link>
           </li>
