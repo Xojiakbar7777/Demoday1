@@ -14,7 +14,7 @@ createRoot(document.getElementById('root')).render(
    <BrowserRouter>
    <Routes > 
   <Route path='/Login' element={<LoginPage />} />
-    <Route path='/Vxod' element={<LoginPage />} />
+    <Route path='/Vxod' element={<RegisterPage />} />
     </Routes>
    <Navbar />
     <App />

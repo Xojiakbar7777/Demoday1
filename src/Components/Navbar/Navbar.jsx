@@ -49,7 +49,7 @@ const Navbar = () => {
             Вход
           </Link>
           <span className="text-[20px] font-bold">/</span>
-          <Link to="/Register" className="text-[20px] font-bold">
+          <Link to="/Vxod" className="text-[20px] font-bold">
             Регистрация
           </Link>
         </nav>
