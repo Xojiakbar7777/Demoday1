@@ -1,7 +1,7 @@
 import React from 'react'
 import { Route,Routes, Router } from 'react-router-dom'
-import LoginPage from './Register/Vxod'
-import RegisterPage from './Register/Register'
+
+
 import DeliverySection from './Pages/kompany'
 import CatalogPage from './Pages/Magazin'
 import Catalog from './Pages/Magazin'
@@ -16,8 +16,8 @@ const App = () => {
   return (
     <div>
      <Routes>
-      <Route path='/Login' element={<LoginPage />} />
-      <Route path='/Register' element={<RegisterPage /> }/>
+     
+     
       <Route path='/Kompany' element={<DeliverySection />} />
       <Route path='/Magazin' element={<CatalogPage />} />
       <Route path='/*' element={<NotFoundPage />} />

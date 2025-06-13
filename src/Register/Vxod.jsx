@@ -1,6 +1,6 @@
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
-
+import { Link } from "react-router-dom";
 export default function LoginPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
@@ -10,10 +10,10 @@ export default function LoginPage() {
         </h1>
 
         <div className="flex flex-col gap-4">
-          <button className="w-full flex items-center justify-center gap-2 text-base border border-gray-300 rounded-md py-2 hover:bg-gray-50">
+         <Link to="/Kompany"> <button className="w-full flex items-center justify-center gap-2 text-base border border-gray-300 rounded-md py-2 hover:bg-gray-50">
             <FcGoogle className="text-xl" />
             Войти через Google
-          </button>
+          </button></Link>
 
           <button className="w-full flex items-center justify-center gap-2 text-base border border-gray-300 rounded-md py-2 hover:bg-gray-50">
             <FaApple className="text-xl" />
