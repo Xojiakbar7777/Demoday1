@@ -1,7 +1,7 @@
 import { FcGoogle } from "react-icons/fc";
 import { FaApple } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { Link } from "react-router-dom";
+
 export default function RegisterPage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-gray-100 to-gray-200 flex items-center justify-center">
@@ -46,7 +46,7 @@ export default function RegisterPage() {
 
         <div className="text-center text-sm text-gray-500 mt-6">
           Уже есть аккаунт?
-          <Link to="/login" className="text-blue-600 hover:underline ml-1">
+          <Link to="/Login" className="text-blue-600 hover:underline ml-1">
             Войти
           </Link>
         </div>
